@@ -15,19 +15,19 @@ admins = {}
 
 API_ID = int(getenv("API_ID", "8934899"))
 API_HASH = getenv("API_HASH", "bf3e98d2c351e4ad06946b4897374a1e")
-BOT_TOKEN = getenv("BOT_TOKEN", "5204315005:AAEYXJg5Jcr4lm_NtGpm6QaBWdHMXSCKdtg")
+BOT_TOKEN = getenv("BOT_TOKEN", "6225451353:AAGFd-lpSA5gKccHjxqzKcRRxPaZPB_E-XU")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "600"))
-STRING_SESSION = getenv("STRING_SESSION", "AgAZiHdAd4EOX2_TFaotq0BvHmvyfNnuzW1BXj_K4vIjrDbv_c2Ii7HvAyDU-kjCHAQsEvvY-AsNtiGCQ000WasBQ6qvB4wV5Ez7XZQyNmqbe2Cyg0DUTLHGFqKx-cuZ6RuYIla3TFYNx02fRE1TK_cYmdZr2KC4PvH80JM_zSzCju99osQ8xTQGI7L4wsZmOGD7ACCZpbGt_3WM-nalZCq4gS37ubEmu1pCLc7GE5NVkyUYyG1fERP8LRisXehFuf5Ly-ZOZ8e98sr0tYBRKfLsTODFsGVWRVIYvyZ4KstWO9O54MAm5eKkasktNoBSv49KSMPiBrtmbiNFKBXTi8loAAAAAVYfLGoA")
+STRING_SESSION = getenv("STRING_SESSION", "AgAiI3dT0jimOCn6RiMLYMdEMQKpqksonYkDy_TCaCP0kH-y91nZ9Ps48mFl75iglw9xakyB38XQxzU9yi4x8OgJJl2mZF2CilIBoSG18nCAq5G6bWAjDC1axBJ5FTG-4sUbWfK9ZvQOanqB9MMKDzTYYFnrVggQTNJQTBuz-zc9WLiP_z32YQUoQ-lS7MeqTx--MVH9kpz9YXyjbQJExCCxi_3JwWs8IYi4DT6bo2qKxywljydrUxme6REPhey2yLX76loKQRcvT3nEZJavuYJypdym9_WEbfaXuKxJYkCeeYAP--E0ygr-xHYkTPgah9lXYxpQsWGgKG4gScatlTETAAAAAVLAQooA")
 BOT_USERNAME = getenv("BOT_USERNAME", "Saiadjabot")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1854384004").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "-1001731222858").split()))
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1854384004").split())
+    map(int, getenv("OWNER_ID", "-1001731222858").split())
 )  # Input type must be interger
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "30"))
 
 #•••••••••••••••••••••••• Mongodb Url Stuff & Loggroupid •••••••••••
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001847569598")) 
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001731222858")) 
 
 MONGODB_URL = getenv("MONGODB_URL", "mongodb+srv://veez:mega@cluster0.heqnd.mongodb.net/veez?retryWrites=true&w=majority")
 #________________________ Updates  & Music bot name________________
